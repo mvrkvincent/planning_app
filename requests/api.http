@@ -1,0 +1,23 @@
+### TEST ROUTE
+
+GET http://127.0.0.1:5001/firstwordsaidonline
+Content-Type: application/json
+
+### GET ROUTE - Plans
+
+GET http://127.0.0.1:5001/plans
+Content-Type: application/json
+
+### POST ROUTE - Plans
+
+POST http://127.0.0.1:5001/plans
+Content-Type: application/json
+
+{
+    "start": "Wed, 21 Oct 2025 18:27:50 GMT",
+    "end": "Wed, 26 Oct 2025 18:27:50 GMT",
+    "city": "Austin",
+    "itinerary": "GPT TOLD ME TO DO THIS!",
+}
+
+### 
