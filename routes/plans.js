@@ -4,7 +4,9 @@ import {Plan} from '../models/plan.js';
 const router = express.Router();
 
 router.get('/', (_, res) => {
-    res.json('plans can get got');
+    Plan.find()
+        .then(plans => res.json(plans))
+            .catch(err => res.json(err))
 })
 
 // {data}
